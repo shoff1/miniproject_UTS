@@ -12,7 +12,7 @@ scale=1.0">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
             <a href="{{ route('home') }}" class="navbar-brand mb-0 h1"><i
-class="bi-hexagon-fill me-2"></i> Data Master</a>
+class="bi bi-box-seam-fill me-2"></i>Master Barang</a>
 
             <button type="button" class="navbar-toggler" data-bs
 toggle="collapse" data-bs-target="#navbarSupportedContent">

@@ -12,7 +12,7 @@ scale=1.0">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
             <a href="{{ route('home') }}" class="navbar-brand mb-0 h1"><i
-class="bi-hexagon-fill me-2"></i> Data Master</a>
+class="bi bi-box-seam-fill me-2"></i>Master Barang</a>
 
             <button type="button" class="navbar-toggler" data-bs
 toggle="collapse" data-bs-target="#navbarSupportedContent">
@@ -43,8 +43,44 @@ Profile</a>
         <hr>
         <div class="d-flex align-items-center py-2 px-4 bg-light rounded
 3 border">
-            <div class="bi-person-circle me-3 fs-1"></div>
-            <h4 class="mb-0">Well done! this is {{ $pageTitle }}.</h4>
+            <div class="bi bi-person-bounding-box me-3 fs-1"></div>
+            <h4 class="mb-0">Name: Shofiyah Labibah</h4>
+</div>
+
+<div class="d-flex align-items-center py-2 px-4 bg-light rounded
+3 border">
+            <div class="bi bi-list-columns me-3 fs-1"></div>
+            <h4 class="mb-0">NIM: 1204220097</h4>
+</div>
+
+<div class="d-flex align-items-center py-2 px-4 bg-light rounded
+3 border">
+            <div class="bi bi-book me-3 fs-1"></div>
+            <h4 class="mb-0">Original Class: IS-05-03</h4>
+</div>
+
+<div class="d-flex align-items-center py-2 px-4 bg-light rounded
+3 border">
+            <div class="bi bi-calendar-date-fill me-3 fs-1"></div>
+            <h4 class="mb-0">Tahun Masuk: 2022</h4>
+</div>
+
+<div class="d-flex align-items-center py-2 px-4 bg-light rounded
+3 border">
+            <div class="bi-person me-3 fs-1"></div>
+            <h4 class="mb-0">Jenis Kelamin: Perempuan</h4>
+</div>
+
+<div class="d-flex align-items-center py-2 px-4 bg-light rounded
+3 border">
+            <div class="bi bi-building-fill me-3 fs-1"></div>
+            <h4 class="mb-0">Jurusan: Sistem Informasi</h4>
+</div>
+
+<div class="d-flex align-items-center py-2 px-4 bg-light rounded
+3 border">
+            <div class="bi bi-bank me-3 fs-1"></div>
+            <h4 class="mb-0">Fakultas: Rekayasa Industri</h4>
 </div>
 </div>
 @vite('resources/js/app.js')

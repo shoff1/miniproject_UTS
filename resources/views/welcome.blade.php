@@ -18,7 +18,7 @@ Vite::asset('resources/images/laravel.png') }}" alt="image">
 
         <div class="col-md-2 offset-md-5 mt-4">
             <div class="d-grid gap-2">
-                <a href="{{route('home')}}" class="btn btn-dark" href="">Home</a>
+                <a href="{{route('profile')}}" class="btn btn-dark" href="">Enter Page</a>
 </div>
 </div>
 </div>
